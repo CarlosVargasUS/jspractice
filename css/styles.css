@@ -5,21 +5,20 @@ body{
 #offscreen-nav ul{
     list-style-type: none;
     font-size: 2em;
-
 }
 
 #offscreen-nav{
-    background: #ffffff;
+    background: #ec1414!important;
     position: absolute;
-    top:0px;
+    top:0;
     left: 0;
-    width: 0px;
-
+ display:none;
+   
 }
+
 
 #close-btn{
     float: right;
-    padding: 5%;
 
 }
 
@@ -36,6 +35,10 @@ body{
     height: 150px;
     border: 1px solid;
     box-shadow:  2px 2px 2px 2px;
+    position: absolute;
+    top:0;
+    right:0;
+    opacity: 0;
 }
 
 
