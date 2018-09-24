@@ -1,0 +1,41 @@
+body{
+    background: #dddddd;
+}
+
+#offscreen-nav ul{
+    list-style-type: none;
+    font-size: 2em;
+
+}
+
+#offscreen-nav{
+    background: #ffffff;
+    position: absolute;
+    top:0px;
+    left: 0;
+    width: 0px;
+
+}
+
+#close-btn{
+    float: right;
+    padding: 5%;
+
+}
+
+#more-info{
+    color:red;
+}
+
+#tooltip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    box-shadow:  2px 2px 2px 2px;
+}
+
+
