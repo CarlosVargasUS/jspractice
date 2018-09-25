@@ -1,24 +1,34 @@
-body{
-    background: #dddddd;
-}
-
 #offscreen-nav ul{
     list-style-type: none;
     font-size: 2em;
+    background: black;
+    color:red;
 }
 
-#offscreen-nav{
-    background: #ec1414!important;
-    position: absolute;
-    top:0;
-    left: 0;
- display:none;
-   
+.no-show-bar{
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  background-color: gray;
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.list{
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  color: white;
+  display: block;
 }
 
 
 #close-btn{
-    float: right;
+float: right;
+position: absolute;
+top:0;
+right:auto;
 
 }
 
@@ -40,5 +50,3 @@ body{
     right:0;
     opacity: 0;
 }
-
-
