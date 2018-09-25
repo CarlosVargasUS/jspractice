@@ -8,7 +8,7 @@ var content = document.getElementById('content');
 var moreInfoText = document.getElementById('more-info');
 var tooltip = document.getElementById('tool-tip');
 
-burger.addEventListener('click', function(){
+burger.addEventListener('click', function () {
 
     console.log("button clicked");
     mobileNav[0].style.width = '50%';
@@ -17,12 +17,12 @@ burger.addEventListener('click', function(){
 
 });
 
-closebtn.addEventListener('click', function(){
-mobileNav[0].style.width = '0%';
-mobileNav[0].style.transition= '0.5s ease';
+closebtn.addEventListener('click', function () {
+    mobileNav[0].style.width = '0%';
+    mobileNav[0].style.transition = '0.5s ease';
 });
 
-moreInfoText.addEventListener("mouseenter", function(event){
+moreInfoText.addEventListener("mouseenter", function (event) {
     //tooltip.style.opacity='1';
     //var x = event.screenX;
     //var y = event.screenY;
