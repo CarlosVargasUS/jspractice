@@ -34,12 +34,14 @@ right:auto;
 
 #more-info{
     color:red;
+    font-size: 25pt;
 }
 
 #tooltip{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:blue;
     background: white;
     width: 150px;
     height: 150px;

@@ -23,11 +23,11 @@ closebtn.addEventListener('click', function () {
 });
 
 moreInfoText.addEventListener("mouseenter", function (event) {
-    //tooltip.style.opacity='1';
-    //var x = event.screenX;
-    //var y = event.screenY;
-    //console.log(y);
-    //tooltip.style.top = y +'px';
-    //tooltip.style.left = x + 'px';
+    tooltip.style.opacity='1';
+    var x = event.screenX;
+    var y = event.screenY;
+    console.log(y);
+    tooltip.style.top = y +'px';
+    tooltip.style.left = x + 'px';
 }
 );
